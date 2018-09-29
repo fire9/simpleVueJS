@@ -13,6 +13,9 @@
 <body>
     <div id="main-header">
         <h1>{{ title }}</h1>
+        <h1>{{ title.split('').reverse().join('~') }}</h1>
+        <h2>{{ isTrue ? subtitle : "我是错误的" }}</h2>
+        <h3>{{ 1 + 1 }}</h3>
     </div>
 
 
@@ -20,7 +23,9 @@
         new new Vue({
             el: "#main-header",
             data: {
-                title: "Simple Vue.JS!"
+                title: "Simple Vue.JS!",
+                subtitle: "态度决定一切，细节决定成败!",
+                isTrue: false,
             }
         })
     </script>
