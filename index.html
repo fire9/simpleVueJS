@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main-header">
+        <h1>{{ title }}</h1>
+    </div>
+
+
+    <script>
+        new new Vue({
+            el: "#main-header",
+            data: {
+                title: "Simple Vue.JS!"
+            }
+        })
+    </script>
+</body>
+
+</html>
