@@ -1,0 +1,22 @@
+{
+  "name": "simplevuejs",
+  "version": "1.0.0",
+  "description": "This is a exercise for Vue.JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fire9/simpleVueJS.git"
+  },
+  "keywords": [
+    "Vue.JS"
+  ],
+  "author": "fire9",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fire9/simpleVueJS/issues"
+  },
+  "homepage": "https://github.com/fire9/simpleVueJS#readme"
+}
